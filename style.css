@@ -369,6 +369,7 @@ i[class="fas fa-star"] {
       display:flex;
       flex-wrap:wrap;
       padding:10px;
+  
   }
 
   #hebergement a {
@@ -556,6 +557,7 @@ display:none;
     #hebergement div:nth-child(2){
     display:flex;
     flex-wrap: wrap;
+    
    
     
    
@@ -710,8 +712,8 @@ ul {
     }
 
     .conteneur_heb{
-        width: 29%;
-        margin-left: 34px;
+        width: 30%;
+      
     }
 
     #pop_heb{
@@ -725,6 +727,8 @@ ul {
         margin-right: 5%;
        
      }
+
+  
 
      #afficher{
         margin-left: 30px;
@@ -879,11 +883,12 @@ ul {
 
 #text_act_2{
     height: 100px;
-    padding-top: 60px; 
+    padding-top: 38px; 
 }
 #text_act_3{
     height: 100px;
-    padding-top: 15px;
+    margin-top:-3px;
+   
 }
 #text_act_4{
     height: 100px;
