@@ -228,7 +228,7 @@ form p{
     color : #FFF
 }
 
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog  {
+.fa-money-bill-wave, .fa-heart, .fa-dog  {
 color: #0065FC;
 padding: 15px;
 background-color: #DEEBFF;
@@ -236,9 +236,18 @@ border-radius: 50%;
 
 }
 
+.fa-child{
+    color: #0065FC;
+    padding : 15px 18px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    
+
+}
+
 .bouton_E{
    
-    width: 140px;
+    width: 120px;
     text-align: center;
     font-weight: bold;
     margin:0;
@@ -282,19 +291,21 @@ border-radius: 50%;
 
 .fa-info {
     color: #0065fc;
-    font-size: 10px;
-    padding:1px 4px;
-    background-color:#F2F2F2 ;
+    font-size: 12px;
+    padding:4px 8px;
+    border:#F2F2F2 solid 1.5px;
     border-radius: 50%;
-    vertical-align: top;
-    margin-top: 15px;
+  vertical-align: top;
+    margin-top: 10px;
+    margin-right: 10px;
   
   }
 #info{
     display: inline-block;
-    width:95%;
+    width:80%;
    margin:12px 0 0 0;
    text-align: justify;
+   
 }
 
 
@@ -365,10 +376,7 @@ i[class="fas fa-star"] {
  
   }
   
-  i[class="far fa-star"] {
-    color: #f2f2f2;
-    padding-bottom: 8px;
-  }
+  
 
   /* SECTION HEBERGEMENTS */
 
@@ -568,11 +576,11 @@ display:none;
     #hebergement div:nth-child(2){
     display:flex;
     flex-wrap: wrap;
-    
-   
-    
+      
    
     }
+
+    
     .conteneur_heb{
         width: 200px ;
         margin-left: 25px;
@@ -605,10 +613,10 @@ display:none;
 }
  
 
-@media screen and (min-width:992px){
+@media screen and (min-width:1220px){
 
 
- 
+    
   header nav {
  clear:none;
  
