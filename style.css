@@ -399,6 +399,13 @@ i[class="fas fa-star"] {
       height:100%;
       width:100%;
   }
+
+  
+  #hebergement div:nth-child(2){
+   width:100%
+   
+    }
+
   .conteneur_heb{
     height: 190px;
     width: 100%;
@@ -442,6 +449,12 @@ i[class="fas fa-star"] {
     flex-wrap:wrap;
     padding:10px;
   }
+
+  #div_act{
+    width:100%;
+  }
+
+
   .conteneur_act_1, .conteneur_act_2,
   .conteneur_act_3, .conteneur_act_4,
   .conteneur_act_5, .conteneur_act_6 {
