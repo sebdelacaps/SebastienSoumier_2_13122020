@@ -76,7 +76,10 @@ ul {
   display: flex;
   justify-content: space-around;
   height: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  margin-left: -15px;
+  margin-right: -15px;
+  
 }
 
 ul li {
@@ -89,7 +92,9 @@ ul a {
   display: inline-block;
   width: 100%;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: solid #f2f2f2 3px;
+  
 }
 
 ul a:hover {
@@ -559,10 +564,15 @@ footer {
   ul {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    
   }
   ul a {
     position: relative;
     top: -20px;
+    border: none;
   }
 
   ul a:hover {
